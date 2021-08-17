@@ -74,3 +74,34 @@ body {
 #keyboard>.number:active, #keyboard>.operator:active {
         font-size: 12px;
 }
+
+#key-operator {
+        height: auto;
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 28%;
+        left: -20px;
+}
+
+.operator {
+        height: 50px;
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        background: lightgreen;
+        border-radius: 5px;
+        color: darkmagenta;
+        border: 2px solid black;
+}
+
+.operator:hover {
+        background: lightgoldenrodyellow;
+        color: orangered;
+}
+
+.operator:active {
+        font-size: 12px;
+}

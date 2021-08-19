@@ -31,18 +31,17 @@ body {
         height: 20%;
         text-align: right;
         padding-right: 20px;
-        padding-top: 20px;
         background: lightgoldenrodyellow;
         border-radius: 10px;
 }
 
 #history-value {
-        font-size: 18px;
-        color: darkorange;
+        font-size: 20px;
+        color: darkgray;
 }
 
 #output-value {
-        font-size: 45px;
+        font-size: 40px;
         font-weight: bold;
         color: darkmagenta;
 }
